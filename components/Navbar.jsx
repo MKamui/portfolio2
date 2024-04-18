@@ -70,7 +70,7 @@ const Navbar = () => {
                   src={NavLogo}
                   width='50'
                   height='50'
-                  alt='/'
+                  alt='Logo mobile'
                 />
               </Link>
               <div

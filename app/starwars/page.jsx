@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div className='w-full h-screen min-h-screen overflow-x-hidden'>
       <div className='w-full h-1/2'>
-        <Image src={starwarsImg} className='w-full h-full object-cover object-center opacity-40'/>
+        <Image src={starwarsImg} className='w-full h-full object-cover object-center opacity-40' alt='starwarsImg'/>
       </div>
       <div className='max-w-[80%] mx-auto grid lg:grid-cols-6 gap-[3%] pt-[5%]'>
         <div className='col-span-4 space-y-[5%]'>

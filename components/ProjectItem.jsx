@@ -5,7 +5,7 @@ import React from 'react'
 const ProjectItem = ({title, backgroundImg, projectUrl}) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-lg xl:shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-red-900 to-red-500'>
-    <Image className='rounded-xl group-hover:opacity-10 w-full h-full object-cover object-center' src={backgroundImg} alt='/'/> 
+    <Image className='rounded-xl group-hover:opacity-10 w-full h-full object-cover object-center' src={backgroundImg} alt='project image'/> 
     <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
         <h3 className='text-lg lg:text-xl xl:text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl 5xl:text-8xl text-white tracking-wide text-center pb-[5%]'>{title}</h3>
         <Link href={projectUrl}>
