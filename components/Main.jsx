@@ -18,6 +18,7 @@ const Main = () => {
           <div className='flex items-center justify-center space-x-[40px] md:space-x-[100px] xl:space-x-[200px] 3xl:space-x-[300px] m-auto pt-[10%] md:pt-[5%]'>
             <Link
               href='https://www.linkedin.com/in/mario-franco-427904178/'
+              target='_blank' rel="noopener noreferrer"
             >
               <div className='rounded-full shadow-md xl:shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-red-500 hover:shadow-red-400 w-[75px] md:w-[100px] lg:w-[120px] xl:w-[150px] 3xl:w-[250px] 4xl:w-[300px] aspect-square flex justify-center items-center border border-gray-500 hover:border-red-400'>
                 <FaLinkedinIn className='text-2xl md:text-4xl lg:text-5xl xl:text-6xl 3xl:text-8xl 4xl:text-9xl'/>
@@ -25,6 +26,7 @@ const Main = () => {
             </Link>
             <Link
               href='https://github.com/MKamui'
+              target='_blank' rel="noopener noreferrer"
             >
               <div className='rounded-full shadow-md xl:shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-red-500 hover:shadow-red-400 w-[75px] md:w-[100px] lg:w-[120px] xl:w-[150px] 3xl:w-[250px] 4xl:w-[300px] aspect-square flex justify-center items-center border border-gray-500 hover:border-red-400'>
                 <FaGithub className='text-2xl md:text-4xl lg:text-5xl xl:text-6xl 3xl:text-8xl 4xl:text-9xl'/>
